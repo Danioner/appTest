@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 23-05-2021 a las 16:08:48
+-- Tiempo de generación: 23-05-2021 a las 16:23:05
 -- Versión del servidor: 5.7.24
 -- Versión de PHP: 7.2.19
 
@@ -175,7 +175,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Daniel', 'daniel@apptest.com', NULL, '$2y$10$WNYpbXhI.geFt5TjMtNfE.M0CV4lXcGU06ApdKV.E3sMLcG5FdZz6', NULL, '2021-05-20 19:40:30', '2021-05-20 19:40:30');
+(2, 'Daniel', 'daniel@apptest.com', NULL, '$2y$10$9CtkwDYCZkqsf1GWd/bZw...iwuOOCQo/cBi7PUHwB1tPEmXcQGJW', NULL, '2021-05-23 20:22:29', '2021-05-23 20:22:29');
 
 --
 -- Índices para tablas volcadas
@@ -239,7 +239,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
