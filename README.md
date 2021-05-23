@@ -32,5 +32,24 @@ composer install
 
 **Descripción:** Dentro de la carpeta DB se encuentra la base de datos en MySQL. Lo que tiene que hacer es, al bajar completamente la base de datos, crear la BD apptest e importar la base de datos.
 
+* .ENV
 
+La variable de entorno no existe en el proyecto, ahora, se debe copiar el archivo llamado *.env.example* y se le debe poner *.env*
+Luego, se le debe modificar las siguientes lineas:
+```SQL
+DB_DATABASE=nombredelabasededatos
+DB_USERNAME=nombredelusuario
+DB_PASSWORD=passworddelabasededatos
+```
+Debe ingresar estos datos para que la aplicación pueda conectarse a la base de datos.
+Luego ingresar lo siguiente en la linea de comandos.
+```SQL
+php artisan key:generate
+```
+Esto generará una key para nuestro *.env*.
 
+## Credenciales por defecto.
+
+La aplicación cuenta con un Login. Por lo tanto, tiene unas credenciales que pueden ser usadas o también existe la posibilidad de que el usuario cree unas nuevas credenciales usando el módulo de **Registro de usuarios**.
+* correo electronico: daniel@apptest.com
+* contraseña: 12345678
