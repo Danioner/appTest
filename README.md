@@ -47,3 +47,9 @@ Luego ingresar lo siguiente en la linea de comandos.
 php artisan key:generate
 ```
 Esto generará una key para nuestro *.env*.
+
+## Credenciales por defecto.
+
+La aplicación cuenta con un Login. Por lo tanto, tiene unas credenciales que pueden ser usadas o también existe la posibilidad de que el usuario cree unas nuevas credenciales usando el módulo de **Registro de usuarios**.
+* correo electronico: daniel@apptest.com
+* contraseña: 12345678
