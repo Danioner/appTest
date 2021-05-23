@@ -42,4 +42,8 @@ DB_USERNAME=nombredelusuario
 DB_PASSWORD=passworddelabasededatos
 ```
 Debe ingresar estos datos para que la aplicación pueda conectarse a la base de datos.
-
+Luego ingresar lo siguiente en la linea de comandos.
+```SQL
+php artisan key:generate
+```
+Esto generará una key para nuestro *.env*.
