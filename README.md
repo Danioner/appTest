@@ -36,10 +36,10 @@ composer install
 
 La variable de entorno no existe en el proyecto, ahora, se debe copiar el archivo llamado *.env.example* y se le debe poner *.env*
 Luego, se le debe modificar las siguientes lineas:
-´´´SQL
+```SQL
 DB_DATABASE=nombredelabasededatos
 DB_USERNAME=nombredelusuario
 DB_PASSWORD=passworddelabasededatos
-´´´
+```
 Debe ingresar estos datos para que la aplicación pueda conectarse a la base de datos.
 
